@@ -1,0 +1,30 @@
+.configuration-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #465568;
+  padding: 15px;
+  width: 1100px;
+}
+.unordered-configuration-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+.label-element {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-left: 6px;
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
